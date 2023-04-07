@@ -3,4 +3,3 @@ time
 aiohttp
 json
 os
-guicorn
