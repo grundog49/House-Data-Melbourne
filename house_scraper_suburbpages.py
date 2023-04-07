@@ -6,13 +6,9 @@
 #                             Import Packages                                 #
 ###############################################################################
 
-import numpy as np
-import requests
-from bs4 import BeautifulSoup
 import re
 import string
 import pandas as pd
-from collections import defaultdict as dd
 import asyncio
 
 ###############################################################################
