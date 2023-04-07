@@ -72,7 +72,7 @@ async def save_link(link):
         json_file_name = json_file_name.replace(punctuation, '')
     link_dict = {'link': link}
     if not os.path.isfile(f'url_data/{json_file_name}.json'):
-        with open(f'url_data/{json_file_name}.json', 'w') as house_file:
+        with open(f'https://github.com/grundog49/House-Data-Melbourne.git/url_data/{json_file_name}.json', 'w') as house_file:
             json.dump(link_dict, house_file)
 
 async def get_house_page(url):
