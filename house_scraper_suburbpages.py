@@ -18,6 +18,18 @@ import asyncio
 TEST_URL = 'https://www.auhouseprices.com/sold/list/VIC/'
 DATA_PATH = r'D:\Users\grund\OneDrive\Documents\Python Scripts\Automation Stuff\Property Investment Calculator\House Data'
 
+def joiner(list):
+    return " ".join(list)
+
+def slicer(list, single = None, range=None):
+    if single:
+        return list[single]
+    else:
+        if range[1]:
+            return list[range[0]:range[1]]
+        else:
+            return list[range[0]:]
+
 ###############################################################################
 #                            Async Main Program                               #
 ###############################################################################
