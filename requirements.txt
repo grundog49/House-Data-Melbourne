@@ -3,3 +3,4 @@ aiohttp
 pandas
 beautifulsoup4
 requests
+openpyxl
